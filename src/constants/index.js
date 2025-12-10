@@ -186,33 +186,23 @@ const photosLinks = [
 
 const gallery = [
   {
-    id: 2,
-    img: "/images/cm.jpg",
-  },
-  {
     id: 1,
-    img: "/images/imc.jpg",
+    img: "/images/cheque.jpg",
   },
   {
-    id: 3,
-    img: "/images/potrait.jpg",
-  },
-  {
-    id: 4,
+    id: 2,
     img: "/images/dp.jpg",
   },
   {
-    id: 5,
-    img: "/images/melaptop.jpg",
+    id: 3,
+    img: "/images/imc.jpg",
   },
   {
-    id: 6,
-    img: "/images/navratri.jpg",
+    id: 4,
+    img: "/images/cm.jpg",
   },
-  {
-    id: 7,
-    img: "/images/cheque.jpg",
-  },
+
+
 ];
 
 export {
@@ -420,26 +410,26 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/itsme.jpg",
+      imageUrl: "/images/potrait.jpg",
     },
-    {
-      id: 202,
-      name: "with-gameeon-ceo.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-28 right-72",
-      imageUrl: "/images/gameeon.jpeg",
-    },
-    {
-      id: 203,
-      name: "with-ajay.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/nodwin.jpeg",
-    },
+    // {
+    //   id: 202,
+    //   name: "with-gameeon-ceo.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-28 right-72",
+    //   imageUrl: "/images/gameeon.jpeg",
+    // },
+    // {
+    //   id: 203,
+    //   name: "with-ajay.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-52 left-80",
+    //   imageUrl: "/images/nodwin.jpeg",
+    // },
     {
       id: 204,
       name: "about-me.txt",
@@ -448,7 +438,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/main.jpeg",
+      image: "/images/navratri.jpg",
       description: [
         "Hey! I’m Mahendra 👋. I don't just write code; I engineer experiences. I’m a Game Developer at heart and a Full-Stack Architect by trade.",
         "My playground is Unity and C#, where I craft high-performance multiplayer games. From handling real-time network sync with Photon PUN to optimizing frame rates, I thrive on the complexity of bringing virtual worlds to life.",
@@ -457,16 +447,16 @@ const ABOUT_LOCATION = {
         "Whether it's optimizing a render loop or architecting a cloud backend, I'm obsessed with performance, precision, and pushing the boundaries of what code can do. Let's build something legendary. 🚀",
       ],
     },
-    {
-      id: 205,
-      name: "Game Dev Me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      href: "https://youtu.be/mZx57gI02Jc",
-      position: "top-10 right-20",
-      imageUrl: "/images/stats.jpeg",
-    },
+    // {
+    //   id: 205,
+    //   name: "Game Dev Me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   href: "https://youtu.be/mZx57gI02Jc",
+    //   position: "top-10 right-20",
+    //   imageUrl: "/images/stats.jpeg",
+    // },
   ],
 };
 

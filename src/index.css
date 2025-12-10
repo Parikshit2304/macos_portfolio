@@ -83,16 +83,32 @@ body {
   }
 
   /* --- WELCOME SCREEN --- */
-  #welcome {
+  /* #welcome {
     @apply text-gray-200 flex flex-col justify-center items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 select-none z-0;
-
     .small-screen {
       @apply hidden;
 
       
     }
 
-  }
+  } */
+
+  #welcome {
+  /* hidden on small; visible & centered on sm+ */
+  @apply hidden sm:flex sm:flex-col sm:items-center sm:justify-center
+         sm:absolute sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2
+         select-none;
+
+  /* ensure it receives mouse events and sits above other UI windows */
+  pointer-events: auto;
+  z-index: 50; /* or z-[9999] if you need it above everything */
+  
+  .small-screen {
+      @apply hidden;
+
+      
+    }
+}
 
   /* --- iOS / macOS HOME SCREEN ICONS --- */
   #home {

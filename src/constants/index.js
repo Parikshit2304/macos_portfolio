@@ -266,6 +266,7 @@ const WORK_LOCATION = {
           href: "https://youtu.be/9fQM2nRQkFk",
           position: "top-10 right-20",
         },
+
         {
           id: 103,
           name: "main-menu.png",
@@ -273,24 +274,33 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/main-menu.png",
+          imageUrl: "/images/Dashboard.png",
         },
         {
           id: 104,
-          name: "Gameplay UI.png",
+          name: "Analytics.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-60 right-20",
-          imageUrl: "/images/gameplay-av.jpg",
+          imageUrl: "/images/AnalyticsDashboard.png",
         },
+                {
+          id: 105,
+          name: "deployedlink.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://better-uptime-saas-frontend.vercel.app/",
+          position: "top-30 right-45",
+        }
       ],
     },
 
     // ▶ Project 2
     {
       id: 11,
-      name: "Git Commit Optimizer",
+      name: "AMC Dashboard",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -298,7 +308,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 111,
-          name: "AI Resume Analyzer Project.txt",
+          name: "AMC dashboard.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -341,58 +351,58 @@ const WORK_LOCATION = {
     },
 
     // ▶ Project 3
-    {
-      id: 12,
-      name: "Rubix Rampage",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
-      children: [
-        {
-          id: 121,
-          name: "Game Details.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "PROJECT 1: RUBIX RAMPAGE (Open World Engine)",
-            "Rubix Rampage is an ambitious technical showcase—a fully functional open-world action game inspired by the mechanics of GTA Vice City. This wasn't just about building a game; it was about engineering a living, breathing world.",
-            "• Core Mechanics: I engineered a robust Third-Person Controller featuring advanced camera logic, responsive shooting mechanics, and arcade-style vehicle physics that feel satisfying to drive.",
-            "• AI & Systems: The world is populated by a Professional AI system. NPCs have specific patrol routes and behaviors, reacting dynamically to the player. I also implemented a scalable 'Wanted Level' police system that ramps up difficulty based on player actions.",
-            "• Game Loop: Beyond the sandbox, the game features a structured Mission System complete with cinematic cut-scenes to drive the narrative forward.",
-          ]
-        },
-        {
-          id: 122,
-          name: "gameplay-video.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/K0fmCSgu_UI",
-          position: "top-10 right-20",
-        },
-        {
-          id: 123,
-          name: "Cut Scenes.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/cutscene.jpg",
-        },
-        {
-          id: 124,
-          name: "Gameplay UI.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-60 right-20",
-          imageUrl: "/images/gameplay.jpg",
-        },
-      ],
-    },
+    // {
+    //   id: 12,
+    //   name: "Rubix Rampage",
+    //   icon: "/images/folder.png",
+    //   kind: "folder",
+    //   position: "top-10 left-80",
+    //   windowPosition: "top-[33vh] left-7",
+    //   children: [
+    //     {
+    //       id: 121,
+    //       name: "Game Details.txt",
+    //       icon: "/images/txt.png",
+    //       kind: "file",
+    //       fileType: "txt",
+    //       position: "top-5 left-10",
+    //       description: [
+    //         "PROJECT 1: RUBIX RAMPAGE (Open World Engine)",
+    //         "Rubix Rampage is an ambitious technical showcase—a fully functional open-world action game inspired by the mechanics of GTA Vice City. This wasn't just about building a game; it was about engineering a living, breathing world.",
+    //         "• Core Mechanics: I engineered a robust Third-Person Controller featuring advanced camera logic, responsive shooting mechanics, and arcade-style vehicle physics that feel satisfying to drive.",
+    //         "• AI & Systems: The world is populated by a Professional AI system. NPCs have specific patrol routes and behaviors, reacting dynamically to the player. I also implemented a scalable 'Wanted Level' police system that ramps up difficulty based on player actions.",
+    //         "• Game Loop: Beyond the sandbox, the game features a structured Mission System complete with cinematic cut-scenes to drive the narrative forward.",
+    //       ]
+    //     },
+    //     {
+    //       id: 122,
+    //       name: "gameplay-video.com",
+    //       icon: "/images/safari.png",
+    //       kind: "file",
+    //       fileType: "url",
+    //       href: "https://youtu.be/K0fmCSgu_UI",
+    //       position: "top-10 right-20",
+    //     },
+    //     {
+    //       id: 123,
+    //       name: "Cut Scenes.png",
+    //       icon: "/images/image.png",
+    //       kind: "file",
+    //       fileType: "img",
+    //       position: "top-52 right-80",
+    //       imageUrl: "/images/cutscene.jpg",
+    //     },
+    //     {
+    //       id: 124,
+    //       name: "Gameplay UI.png",
+    //       icon: "/images/image.png",
+    //       kind: "file",
+    //       fileType: "img",
+    //       position: "top-60 right-20",
+    //       imageUrl: "/images/gameplay.jpg",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -440,11 +450,7 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/navratri.jpg",
       description: [
-        "Hey! I’m Mahendra 👋. I don't just write code; I engineer experiences. I’m a Game Developer at heart and a Full-Stack Architect by trade.",
-        "My playground is Unity and C#, where I craft high-performance multiplayer games. From handling real-time network sync with Photon PUN to optimizing frame rates, I thrive on the complexity of bringing virtual worlds to life.",
-        "Beyond gaming, I’m a heavy hitter in the MERN stack and RAG development. Armed with elite DSA skills and a passion for System Design, I build scalable, intelligent applications that solve hard problems efficiently.",
-        "Currently, I'm driving impact at Accenture as an Associate Software Engineer, bridging the gap between creative game mechanics and robust enterprise software.",
-        "Whether it's optimizing a render loop or architecting a cloud backend, I'm obsessed with performance, precision, and pushing the boundaries of what code can do. Let's build something legendary. 🚀",
+        "Hi, I’m Parikshit 👋 — an engineering student who loves turning ideas into real, working products. I enjoy building things that make life easier, whether it’s a full-stack web app, an IoT system, or a smart automation tool. My interests lie at the intersection of software, hardware, and problem-solving, and I’m constantly exploring new technologies that push me to think differently. I’ve worked on projects ranging from uptime monitoring platforms to IoT-enabled systems and internal enterprise tools, each teaching me how to design better, build smarter, and iterate faster. I’m driven by curiosity, consistency, and the desire to create solutions that genuinely help people. Always learning, always building. 🚀",
       ],
     },
     // {
@@ -487,7 +493,7 @@ const EXPERIENCE_LOCATION = {
     // Sub-folder 1: Previous Company
     {
       id: 50,
-      name: "Accenture",
+      name: "Indraprastha Gas Limited",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-10",
@@ -500,11 +506,11 @@ const EXPERIENCE_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-                "Associate Software Engineer | Aug 2024 - Present",
-                "• Led customization of enterprise modules with Hexagon EAM, boosting efficiency and performance by 40%.",
-                "• Optimized SDLC using Azure DevOps for version control, CI/CD, and agile tracking.",
-                "• Supported SAFe alignment in 2+ PI sessions, managing cross-team dependencies.",
-                "• Awarded 'Best Performer' in first 3 months for adaptability and early delivery.",
+                "Software Engineering Intern | June 2025 - August 2025",
+                "• Developed and deployed UptimeMonitor, a scalable full-stack monitoring system for tracking uptime, performance metrics, outage patterns, and SLA compliance across internal services.",
+                "• Built an internal AMC & License Management System to track AMCs, warranty expirations, and software license renewals with automated email alerts, role-based access, and dashboard analytics.",
+                "• Collaborated with cross-functional IT teams for requirement gathering, system testing, documentation, and deployment on internal servers.",
+                "• Implemented secure coding practices, optimized API/database performance, and ensured maintainability through modular architecture and reusable components.",
                 "• Collaborated in Agile teams to resolve issues and improve system performance.",
                 "• Upheld enterprise standards through testing and peer reviews."
             ]
@@ -529,39 +535,39 @@ const EXPERIENCE_LOCATION = {
       ]
     },
     // Sub-folder 2: Another Company / Internship
-    {
-      id: 51,
-      name: "Kanine Klans",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-48",
-      children: [
-        {
-          id: 511,
-          name: "Internship Details.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "Software Engineer Intern | Aug 2023 - July 2024",
-            "• Developed a robust login system for the Kanine Klans game.",
-            "• Integrated Blockchain APIs to securely maintain user data and manage the in-game purchase system.",
-            "• Implemented complex game mechanics including the LAP system, AI NPC system, and Garage system.",
-            "• Worked on backend integration and game logic optimization."
-          ]
-        },
-        {
-          id: 512,
-          name: "Work.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-5 left-40",
-          imageUrl: "/images/kk.jpeg"
-        }
-      ]
-    }
+    // {
+    //   id: 51,
+    //   name: "Kanine Klans",
+    //   icon: "/images/folder.png",
+    //   kind: "folder",
+    //   position: "top-10 left-48",
+    //   children: [
+    //     {
+    //       id: 511,
+    //       name: "Internship Details.txt",
+    //       icon: "/images/txt.png",
+    //       kind: "file",
+    //       fileType: "txt",
+    //       position: "top-5 left-10",
+    //       description: [
+    //         "Software Engineer Intern | Aug 2023 - July 2024",
+    //         "• Developed a robust login system for the Kanine Klans game.",
+    //         "• Integrated Blockchain APIs to securely maintain user data and manage the in-game purchase system.",
+    //         "• Implemented complex game mechanics including the LAP system, AI NPC system, and Garage system.",
+    //         "• Worked on backend integration and game logic optimization."
+    //       ]
+    //     },
+    //     {
+    //       id: 512,
+    //       name: "Work.png",
+    //       icon: "/images/image.png",
+    //       kind: "file",
+    //       fileType: "img",
+    //       position: "top-5 left-40",
+    //       imageUrl: "/images/kk.jpeg"
+    //     }
+    //   ]
+    // }
   ],
 };
 

@@ -90,14 +90,14 @@ const blogPosts = [
     date: "Oct 3, 2025",
     title:
       "Cyber Prahari: A Predictive Analytics Framework for Proactive Cybercrime Intervention and Coordinated Response",
-    image: "/images/sd.png",
+    image: "/images/blog1.png",
     link: "https://drive.google.com/file/d/1BOHiJGCo6Q_L2v_elahbWg-JbBcyCI7H/view",
   },
   {
     id: 2,
     date: "Sept 9, 2025",
     title: "Nirdeshak: An AI-Powered Decision Support System for Precise Railway Traffic Control with Digital Twin Validation",
-    image: "/images/mutex.png",
+    image: "/images/blog2.png",
     link: "https://drive.google.com/file/d/1Y84fUVFLGkrLC4nDCGuol0zmYqD1xKBF/view",
   }
 ];
